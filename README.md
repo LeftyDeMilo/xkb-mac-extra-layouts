@@ -43,12 +43,8 @@ files
 
 ```sh
 $ cd <your_path>/xkb-mac-extra-layouts
-$ sudo cp symbols/ru /usr/share/X11/xkb/symbols
-$ sudo cp symbols/us /usr/share/X11/xkb/symbols
-$ sudo cp rules/base.lst /usr/share/X11/xkb/rules
-$ sudo cp rules/base.xml /usr/share/X11/xkb/rules
-$ sudo cp rules/evdev.lst /usr/share/X11/xkb/rules
-$ sudo cp rules/evdev.xml /usr/share/X11/xkb/rules
+$ rm README.md xkb-ru-macx.z.png
+$ sudo cp -r * /usr/share/X11/xkb
 ```
 
 * Reboot your system
