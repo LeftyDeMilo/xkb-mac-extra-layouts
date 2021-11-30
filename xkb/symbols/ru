@@ -937,7 +937,7 @@ xkb_symbols "mac" {
 // are shifted, all somewhat equals to – are not, etc.
 // 
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
-// │ < ± │ ! ¦ │ " ' │ № ∞ │ % ‰ │ : ÷ │ , ° │ . • │ ; × │ ( { │ ) } │ _ – │ + − ┃        ⌫┃
+// │ < ± │ ! ¦ │ " ' │ № ∞ │ % ‰ │ : ÷ │ , ° │ . • │ ; × │ ( { │ ) } │ _ – │ + − ┃       ⌫ ┃
 // │ > § │ 1 ≠ │ 2 @ │ 3 # │ 4 $ │ 5 € │ 6 ^ │ 7 & │ 8 * │ 9 ≤ │ 0 ≥ │ - — │ = ≈ ┃backspace┃
 // ┢━━━━━┷━━┱──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┴──┬──┺━━┳━━━━━━┫
 // ┃↹       ┃ Й Ø │ Ц Σ │ У Ў │ К   │ Е ™ │ Н   │ Г Ґ │ Ш ⁱ │ Щ Ω │ З ¶ │ Х   │ Ъ Ї ┃      ┃
@@ -949,8 +949,8 @@ xkb_symbols "mac" {
 // ┃⇧     ┃ [ ~ │ Я   │ Ч Ψ │ С ¤ │ М   │ И ₿ │ Т ⁿ │ Ь „ │ Б “ │ Ю ” │ ? ’ ┃             ⇧┃
 // ┃shift ┃ ] ` │ я ₴ │ ч ψ │ с © │ м ν │ и β │ т ₙ │ ь µ │ б « │ ю » │ / ʼ ┃         shift┃
 // ┗━━━━━┳┻━━━━┳┷━━━━┳┷━━━━━╅─────┴─────┴─────┴─────┴─────╆━━━━━┷┳━━━━┷┳━━━━┻━━━━━━━━━━━━━━┛
-//       ┃     ┃     ┃      ┃narrow space   narrow nbspace┃      ┃    ⇮┃
-//       ┃ctrl ┃alt  ┃meta  ┃space           nobreak space┃  menu┃altgr┃
+//       ┃     ┃     ┃      ┃                             ┃      ┃    ⇮┃
+//       ┃ctrl ┃alt  ┃meta  ┃            space            ┃  menu┃altgr┃
 //       ┗━━━━━┻━━━━━┻━━━━━━┹─────────────────────────────┺━━━━━━┻━━━━━┛
 // 
 partial alphanumeric_keys
@@ -1011,8 +1011,6 @@ xkb_symbols "macx" {
     key <AB08> { [ Cyrillic_be,       Cyrillic_BE,       guillemotleft,             leftdoublequotemark       ] }; // б Б « “
     key <AB09> { [ Cyrillic_yu,       Cyrillic_YU,       guillemotright,            rightdoublequotemark      ] }; // ю Ю » ”
     key <AB10> { [ slash,             question,          U02BC,                     U2019                     ] }; // / ? ʼ ’ (Apostrophe)
-
-    key <SPCE>  { [ space, U2008, nobreakspace, U202F ] };  // Punctuation, No-Break and Narrow No-Break Spaces
 
     include "kpdl(comma)"
     include "level3(ralt_switch)"

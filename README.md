@@ -26,7 +26,7 @@ use us(badmac), ru(badmacx) pair.
 
 _In my case xkb files are stored in `/usr/share/X11/xkb` folder._
 
-* Make backups of replacing system files
+* Make backups of replacing system files if you wish
 
 ```sh
 $ cd /usr/share/X11/xkb
@@ -43,11 +43,10 @@ files
 
 ```sh
 $ cd <your_path>/xkb-mac-extra-layouts
-$ rm README.md xkb-ru-macx.z.png
-$ sudo cp -r * /usr/share/X11/xkb
+$ sudo cp -r xkb /usr/share/X11
 ```
 
 * Reboot your system
-* Set new variants (see Variants Added above)
+* Set new variants (see **Variants Added** section above)
 * Enjoy your typing
 
