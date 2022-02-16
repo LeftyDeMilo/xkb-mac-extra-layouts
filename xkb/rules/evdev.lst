@@ -312,7 +312,7 @@
   symbolic        us: English (US, Symbolic)
   rus             us: Russian (US, phonetic)
   mac             us: English (Macintosh)
-  badmac          us: English (Bad Mac Layout with LSGT and TLDE missplaced)
+  badmac          us: English (Macintosh, bad Tilda layout)
   altgr-intl      us: English (intl., with AltGr dead keys)
   olpc2           us: English (the divide/multiply toggle the layout)
   hbs             us: Serbo-Croatian (US)
@@ -644,8 +644,8 @@
   xal             ru: Kalmyk
   dos             ru: Russian (DOS)
   mac             ru: Russian (Macintosh)
-  macx            ru: Russian + Ukrainian-Belorussian layout (Macintosh Extra)
-  badmacx         ru: Russian + Ukrainian-Belorussian (Bad Mac Layout Extra)
+  macx            ru: Russian + Ukrainian + Belorussian layout with Extras (Macintosh)
+  badmacx         ru: Russian + Ukrainian + Belorussian layout with Extras (Macintosh, bad Tilda)
   srp             ru: Serbian (Russia)
   bak             ru: Bashkirian
   chm             ru: Mari

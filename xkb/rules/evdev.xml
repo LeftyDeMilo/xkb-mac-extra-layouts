@@ -1474,7 +1474,7 @@
         <variant>
           <configItem>
             <name>badmac</name>
-            <description>English (Bad Mac Layout with LSGT and TLDE missplaced)</description>
+            <description>English (Macintosh, bad ~)</description>
           </configItem>
         </variant>
         <variant>
@@ -4864,13 +4864,13 @@
         <variant>
           <configItem>
             <name>macx</name>
-            <description>Russian + Ukrainian-Belorussian layout (Macintosh Extra)</description>
+            <description>Russian++ (Macintosh)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>badmacx</name>
-            <description>Russian + Ukrainian-Belorussian (Bad Mac Layout Extra)</description>
+            <description>Russian++ (Macintosh, bad ~)</description>
           </configItem>
         </variant>
         <variant>
